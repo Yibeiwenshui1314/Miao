@@ -10,7 +10,37 @@
 :root{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;color:#f5eedc;background:#102b2d;font-synthesis:none}*{box-sizing:border-box}body{margin:0}.app{max-width:620px;min-height:100dvh;margin:auto;background:#f3ead6;color:#213a37;box-shadow:0 0 50px #06181a;position:relative;padding-bottom:calc(82px + env(safe-area-inset-bottom))}button{font:inherit;cursor:pointer}button:disabled{opacity:.44;cursor:not-allowed}.topbar{background:#183b3c;color:#fff4d7;padding:calc(12px + env(safe-area-inset-top)) 17px 13px;display:flex;justify-content:space-between;align-items:center;gap:8px}.brand{display:flex;align-items:center;gap:10px}.brand strong{display:block;font-size:18px;letter-spacing:.08em}.brand small{display:block;color:#b7d2c9;font-size:12px;margin-top:2px}.seal{width:37px;height:37px;display:grid;place-items:center;border:1px solid #e7bf7e;color:#e7bf7e;font-weight:700;font-size:20px;border-radius:9px}.wallet{display:flex;gap:7px;font-size:14px}.wallet>span{white-space:nowrap;background:#294e4b;border-radius:18px;padding:6px 9px}.wallet small{color:#b8ccbe}.panel{display:none;padding:15px 15px 24px}.panel.active{display:block}.chapter-banner{background:linear-gradient(120deg,#285351,#183c3f);color:#fff6df;padding:12px;border-radius:14px;display:flex;align-items:center;gap:10px;min-height:68px}.chapter-mark{font-size:12px;border:1px solid #cfae72;color:#e8ca93;border-radius:6px;padding:7px;white-space:nowrap}.chapter-banner strong,.chapter-banner small{display:block}.chapter-banner strong{font-size:17px}.chapter-banner small{font-size:12px;color:#c7d4c7;margin-top:3px}.text-button{border:0;background:none;color:#e8ca93;margin-left:auto;white-space:nowrap;font-size:12px;padding:6px 0}.orders-title,.board-head{display:flex;align-items:end;justify-content:space-between;margin:17px 1px 8px;gap:8px}h1,h2,p{margin-top:0}h2{font-size:17px;margin-bottom:0}.orders-title small,.board-head small{font-size:12px;color:#73817a}.orders{display:grid;grid-template-columns:1fr 1fr;gap:8px}.order{background:#fffaf0;border:1px solid #e0d1b6;border-radius:12px;padding:10px;min-height:105px;display:flex;flex-direction:column;gap:6px}.order.story-order{border-color:#af8451;background:#fff6e3}.order-top{display:flex;align-items:center;justify-content:space-between;font-size:13px;font-weight:700}.order .tag{font-size:10px;color:#a4703d}.order-item{font-size:13px}.order-item .emoji{font-size:23px;vertical-align:middle;margin-right:3px}.order button{margin-top:auto;border:0;border-radius:7px;padding:7px;background:#286865;color:white;font-size:12px;font-weight:700}.order button:disabled{background:#d6d1bd;color:#6b746e}.order-reward{color:#8b7252;font-size:11px}.board-head{margin-top:21px}.energy-time{font-size:12px;color:#557269}.generators{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin:10px 0}.generator{background:#e9dbb8;border:1px solid #c9b582;border-radius:11px;color:#294742;padding:8px 4px;font-weight:700;font-size:13px;box-shadow:0 3px 0 #baa777}.generator span{font-size:24px;display:block}.generator small{font-size:10px;color:#58716c;display:block;font-weight:400}.generator:active{transform:translateY(2px);box-shadow:0 1px 0 #baa777}.board-wrap{background:#775943;border:5px solid #775943;border-radius:13px;box-shadow:0 6px 16px #433b2c35;touch-action:none}.board{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:3px}.cell{aspect-ratio:1;min-width:0;background:#d9c399;border:0;border-radius:5px;display:grid;place-items:center;color:#1c3d39;position:relative;touch-action:none;padding:0}.cell:nth-child(12n+1),.cell:nth-child(12n+3),.cell:nth-child(12n+5),.cell:nth-child(12n+8),.cell:nth-child(12n+10),.cell:nth-child(12n+12){background:#e2cca1}.cell.item{background:#f5e9ca}.cell.selected{outline:3px solid #237c73;outline-offset:-3px}.cell.target{background:#c5e3c2}.cell.moving{opacity:.5}.cell .emoji{font-size:clamp(23px,8vw,37px);line-height:1}.cell .level{font-size:10px;position:absolute;bottom:2px;right:3px;color:#625c4b}.board-actions{display:flex;gap:8px;margin-top:12px}.secondary,.primary{border-radius:9px;padding:11px 14px;font-weight:700;border:1px solid #b9aa8a}.secondary{background:#fff8e8;color:#345651}.danger{color:#915140}.primary{border:0;background:#286865;color:white}.board-actions button{flex:1;font-size:13px}.tabs{position:fixed;bottom:0;width:min(100%,620px);display:grid;grid-template-columns:repeat(4,1fr);background:#173c3c;color:#bfd4c8;padding-bottom:env(safe-area-inset-bottom);box-shadow:0 -6px 18px #1d302c25;z-index:5}.tabs button{background:none;border:0;color:inherit;height:70px;display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:12px;gap:2px}.tabs button span{font-size:25px;line-height:1}.tabs button.active{color:#f4c984;background:#285555}.scene{height:235px;background:radial-gradient(circle at 50% 75%,#74938a 0%,#436f6a 55%,#245156 100%);border-radius:15px;display:flex;flex-direction:column;align-items:center;justify-content:end;padding:14px;overflow:hidden;color:#ffe3a0}.scene-roof{background:#533f35;box-shadow:0 -16px 0 -9px #382e2d;clip-path:polygon(5% 0,95% 0,100% 100%,0 100%);font-size:21px;font-weight:700;letter-spacing:.3em;padding:17px 30px 10px}.scene-main{width:78%;height:95px;text-align:center;background:#9b744c;border:7px solid #644734;border-bottom:0;font-size:34px;display:flex;align-items:center;justify-content:space-around}.scene-main span{font-size:55px}.scene-ground{font-size:13px;color:#fff7dc;background:#224947;width:100%;text-align:center;padding:6px}.card{background:#fffaf0;border:1px solid #dfd0b4;border-radius:14px;padding:17px;margin-top:13px}.card h2{margin:7px 0}.card p{font-size:14px;color:#596e64;line-height:1.7;margin:7px 0 14px}.card button{width:100%}.eyebrow{font-size:12px;color:#9c6d3b;letter-spacing:.12em;font-weight:700}.section-intro{padding:20px 5px 8px}.section-intro h1{font-size:29px;margin:7px 0}.section-intro p{color:#6b7f72;font-size:14px}.people{display:grid;gap:11px}.person{background:#fffaf0;border:1px solid #dfd0b4;border-radius:14px;padding:15px;display:grid;grid-template-columns:58px 1fr;gap:11px}.portrait{width:58px;height:58px;background:#e8d8ae;border-radius:12px;display:grid;place-items:center;font-size:35px}.person h2{margin:0}.person small{color:#8c7553}.person p{margin:8px 0;font-size:13px;line-height:1.6}.meter{height:7px;border-radius:4px;background:#e8dec9;overflow:hidden}.meter span{display:block;height:100%;background:#b67f51}.person button{background:none;border:0;padding:7px 0;color:#256960;font-weight:700;font-size:13px;text-align:left}.story-entry{background:#fffaf0;border:1px solid #e0d1b6;border-radius:12px;padding:14px;margin:9px 0}.story-entry h2{margin:4px 0 7px}.story-entry p{font-size:13px;color:#607268;line-height:1.6;margin:0}.story-entry button{border:0;background:none;color:#286865;padding:9px 0 0;font-weight:700}.settings{margin-top:22px}.settings button{width:auto}.settings small{display:block;color:#73817a;margin-top:12px;font-size:12px}.toast{position:fixed;z-index:10;left:50%;bottom:calc(88px + env(safe-area-inset-bottom));transform:translate(-50%,15px);background:#203f3c;color:white;border-radius:22px;padding:9px 15px;font-size:13px;opacity:0;pointer-events:none;transition:.2s;white-space:nowrap;max-width:90vw;overflow:hidden;text-overflow:ellipsis}.toast.show{opacity:1;transform:translate(-50%,0)}dialog{max-width:min(92vw,500px);border:1px solid #c4aa7d;border-radius:16px;padding:24px;background:#fff9eb;color:#29433e;box-shadow:0 16px 60px #081c1c77}dialog::backdrop{background:#112b2dbb}dialog h2{font-size:22px;margin:5px 0 15px}dialog p{line-height:1.8;font-size:15px}dialog form{text-align:right;margin-top:16px}dialog .choice{display:block;width:100%;margin:8px 0;padding:11px;border:1px solid #b49b76;border-radius:9px;background:#f8edda;color:#29433e;text-align:left}@media(max-width:370px){.wallet{gap:3px}.wallet>span{padding:5px}.brand strong{font-size:15px}.panel{padding:12px}.order{padding:8px}.cell .emoji{font-size:25px}}@media(min-width:700px){.app{min-height:100vh}.tabs{left:50%;transform:translateX(-50%)}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
 
 </style>
-  <script defer>
+
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand"><span class="seal">喵</span><div><strong>喵喵江湖志</strong><small>喵来客栈 · 第一章</small></div></div>
+      <div class="wallet"><span>🪙 <b id="coins">0</b></span><span>⚡ <b id="energy">60</b><small>/60</small></span></div>
+    </header>
+    <main>
+      <section class="panel active" id="board-panel" aria-label="合成棋盘">
+        <div class="chapter-banner"><span class="chapter-mark">第一章</span><div><strong>一封送错的信</strong><small id="chapter-hint">客栈开张，江湖来客</small></div><button class="text-button" id="story-shortcut">查看线索 ›</button></div>
+        <div class="board-head"><div><h2>合成棋盘</h2><small id="board-note">点生成器获取物品，将相同物品合在一起</small></div><div class="energy-time" id="energy-time"></div></div>
+        <div class="generators" id="generators"></div>
+        <div class="board-wrap"><div class="board" id="board" role="grid" aria-label="六列八行合成棋盘"></div></div>
+        <div class="board-actions"><button id="undo" class="secondary" disabled>撤销合成</button><button id="sell" class="secondary danger" disabled>出售选中物品</button></div>
+        <div class="orders-title"><h2>来客委托</h2><small>交付物品，结识江湖人物</small></div>
+        <div id="orders" class="orders"></div>
+      </section>
+      <section class="panel" id="inn-panel" aria-label="喵来客栈">
+        <div class="scene"><div class="scene-roof">喵 来 客 栈</div><div class="scene-main">🏮 <span>🐈</span> 🏮</div><div class="scene-ground">一盏灯火，迎八方来客</div></div>
+        <div class="card"><span class="eyebrow">客栈经营</span><h2 id="inn-name">简陋客栈 · 1级</h2><p id="inn-description"></p><button id="upgrade" class="primary"></button></div>
+        <div class="card"><span class="eyebrow">江湖来信</span><h2 id="story-prompt-title">暂无新线索</h2><p id="story-prompt-description"></p><button id="read-story" class="primary" hidden>阅读剧情</button></div>
+      </section>
+      <section class="panel" id="people-panel" aria-label="江湖人物"><div class="section-intro"><span class="eyebrow">江湖群像</span><h1>故人新识</h1><p>完成专属委托，听他们讲自己的故事。</p></div><div id="people" class="people"></div></section>
+      <section class="panel" id="journal-panel" aria-label="江湖手札"><div class="section-intro"><span class="eyebrow">客栈手札</span><h1>一封送错的信</h1><p>故事会在你完成委托后出现；想读时再打开。</p></div><div id="journal"></div><div class="card settings"><h2>设置</h2><button id="reset" class="secondary danger">重新开局</button><small>进度只保存在当前浏览器。清除网站数据也会删除存档。</small></div></section>
+    </main>
+    <nav class="tabs" aria-label="游戏导航"><button data-tab="board" class="active"><span>▦</span>合成</button><button data-tab="inn"><span>⌂</span>客栈</button><button data-tab="people"><span>♡</span>人物</button><button data-tab="journal"><span>☰</span>手札</button></nav>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <dialog id="dialog"><div id="dialog-content"></div><form method="dialog"><button class="primary" value="close">继续</button></form></dialog>
+  <script>
 (() => {
   'use strict';
   const KEY = 'miaomiao-jianghu-mvp-v1';
@@ -74,34 +104,5 @@
 })();
 
 </script>
-</head>
-<body>
-  <div class="app">
-    <header class="topbar">
-      <div class="brand"><span class="seal">喵</span><div><strong>喵喵江湖志</strong><small>喵来客栈 · 第一章</small></div></div>
-      <div class="wallet"><span>🪙 <b id="coins">0</b></span><span>⚡ <b id="energy">60</b><small>/60</small></span></div>
-    </header>
-    <main>
-      <section class="panel active" id="board-panel" aria-label="合成棋盘">
-        <div class="chapter-banner"><span class="chapter-mark">第一章</span><div><strong>一封送错的信</strong><small id="chapter-hint">客栈开张，江湖来客</small></div><button class="text-button" id="story-shortcut">查看线索 ›</button></div>
-        <div class="board-head"><div><h2>合成棋盘</h2><small id="board-note">点生成器获取物品，将相同物品合在一起</small></div><div class="energy-time" id="energy-time"></div></div>
-        <div class="generators" id="generators"></div>
-        <div class="board-wrap"><div class="board" id="board" role="grid" aria-label="六列八行合成棋盘"></div></div>
-        <div class="board-actions"><button id="undo" class="secondary" disabled>撤销合成</button><button id="sell" class="secondary danger" disabled>出售选中物品</button></div>
-        <div class="orders-title"><h2>来客委托</h2><small>交付物品，结识江湖人物</small></div>
-        <div id="orders" class="orders"></div>
-      </section>
-      <section class="panel" id="inn-panel" aria-label="喵来客栈">
-        <div class="scene"><div class="scene-roof">喵 来 客 栈</div><div class="scene-main">🏮 <span>🐈</span> 🏮</div><div class="scene-ground">一盏灯火，迎八方来客</div></div>
-        <div class="card"><span class="eyebrow">客栈经营</span><h2 id="inn-name">简陋客栈 · 1级</h2><p id="inn-description"></p><button id="upgrade" class="primary"></button></div>
-        <div class="card"><span class="eyebrow">江湖来信</span><h2 id="story-prompt-title">暂无新线索</h2><p id="story-prompt-description"></p><button id="read-story" class="primary" hidden>阅读剧情</button></div>
-      </section>
-      <section class="panel" id="people-panel" aria-label="江湖人物"><div class="section-intro"><span class="eyebrow">江湖群像</span><h1>故人新识</h1><p>完成专属委托，听他们讲自己的故事。</p></div><div id="people" class="people"></div></section>
-      <section class="panel" id="journal-panel" aria-label="江湖手札"><div class="section-intro"><span class="eyebrow">客栈手札</span><h1>一封送错的信</h1><p>故事会在你完成委托后出现；想读时再打开。</p></div><div id="journal"></div><div class="card settings"><h2>设置</h2><button id="reset" class="secondary danger">重新开局</button><small>进度只保存在当前浏览器。清除网站数据也会删除存档。</small></div></section>
-    </main>
-    <nav class="tabs" aria-label="游戏导航"><button data-tab="board" class="active"><span>▦</span>合成</button><button data-tab="inn"><span>⌂</span>客栈</button><button data-tab="people"><span>♡</span>人物</button><button data-tab="journal"><span>☰</span>手札</button></nav>
-  </div>
-  <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <dialog id="dialog"><div id="dialog-content"></div><form method="dialog"><button class="primary" value="close">继续</button></form></dialog>
 </body>
 </html>
